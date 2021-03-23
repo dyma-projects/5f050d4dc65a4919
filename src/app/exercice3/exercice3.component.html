@@ -1,0 +1,3 @@
+<p [attr.statut]="stateValue" *ngIf="stateValue">p1</p>
+<p [attr.statut]="!stateValue" *ngIf="!stateValue">p2</p>
+<button (click)="inverserEtat()">LeBouton</button>
